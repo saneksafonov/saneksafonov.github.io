@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexTech — Разработка цифровых решений и веб-интеграция</title>
+    <style>
+        :root { --bg: #0f172a; --text: #e2e8f0; --accent: #38bdf8; --card: #1e293b; }
+        body { font-family: system-ui, -apple-system, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 0; }
+        header { max-width: 1200px; margin: 0 auto; padding: 2rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-weight: 800; font-size: 1.5rem; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
+        nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-size: 0.95rem; opacity: 0.8; transition: 0.3s; }
+        nav a:hover { opacity: 1; color: var(--accent); }
+        .hero { max-width: 800px; margin: 5rem auto; text-align: center; padding: 0 1rem; }
+        h1 { font-size: 3rem; font-weight: 800; line-height: 1.2; margin-bottom: 1.5rem; }
+        h1 span { color: var(--accent); }
+        p { font-size: 1.2rem; opacity: 0.7; max-width: 600px; margin: 0 auto 2rem; }
+        .services { max-width: 1200px; margin: 4rem auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; padding: 0 2rem; }
+        .card { background: var(--card); padding: 2rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); }
+        .card h3 { margin-top: 0; color: var(--accent); }
+        footer { text-align: center; padding: 3rem; opacity: 0.5; font-size: 0.85rem; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 5rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ApexTech</div>
+        <nav>
+            <a href="#services">Услуги</a>
+            <a href="#about">О компании</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Проектируем и внедряем <span>сложные IT-системы</span></h1>
+        <p>Создаем отказоустойчивую инфраструктуру, автоматизируем бизнес-процессы и разрабатываем высоконагруженные веб-сервисы.</p>
+    </section>
+
+    <main class="services" id="services">
+        <div class="card">
+            <h3>Веб-разработка</h3>
+            <p>Проектирование архитектуры, бэкенд на Go/Python и современные интерфейсы для вашего бизнеса.</p>
+        </div>
+        <div class="card">
+            <h3>DevOps & Cloud</h3>
+            <p>Настройка CI/CD конвейеров, оркестрация контейнеров (Kubernetes) и оптимизация серверных мощностей.</p>
+        </div>
+        <div class="card">
+            <h3>ИТ-Консалтинг</h3>
+            <p>Аудит существующей инфраструктуры, выявление узких мест и миграция данных без остановки сервисов.</p>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2026 ApexTech Solutions. Все права защищены. Разработка и техническая поддержка.
+    </footer>
+
+</body>
+</html>
+
